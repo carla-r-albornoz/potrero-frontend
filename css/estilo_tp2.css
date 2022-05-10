@@ -1,0 +1,31 @@
+body{background-color: #FDEDEC;
+}
+
+h1{background: #943126;
+color: #FDEDEC;
+font-size: xx-large;
+font-style: italic;
+text-align: center;
+}
+
+h3{color: #943126;
+  font-size: large;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h4{color: #943126;
+  font-size: large;
+  font-style: italic;
+  text-align: center;
+}
+
+img{
+  width: 30%;
+  height: 30%;
+}
+
+iframe {
+  width: 30%;
+  height: 30%;
+}
