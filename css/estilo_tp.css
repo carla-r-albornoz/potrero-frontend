@@ -13,7 +13,7 @@ header {
     width: 100%;
     height: 5vh;
     color: #FDEDEC;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "cursiva";
     text-align: center;}
 
@@ -54,7 +54,7 @@ form{font-weight: bold; margin:1%; font-family: 'Varela Round', sans-serif;}
 .boton-inicio{
   margin: 1%;
   color:#81322d;
-  font-family: 'cursiva';
+  font-family: "cursiva";
   font-weight: bold;
   font-size: 1.5rem;
   border: 2px solid #81322d;
@@ -127,7 +127,7 @@ article {
     font-size: 0.9rem;
     font-family: 'Varela Round', sans-serif;}
 
-h2{color: #81322d; font-size: 1.5rem; font-style: italic; font-weight: bolder; text-decoration: underline; font-family: "cursiva";}
+h2{color: #81322d; font-size: 1.5rem; font-weight: bolder; text-decoration: underline; font-family: "cursiva";}
 
 h2:hover{font-size: 1.6rem; color: #d27a74;}
 
