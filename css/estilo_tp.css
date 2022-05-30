@@ -127,7 +127,7 @@ article {
     font-size: 0.9rem;
     font-family: 'Varela Round', sans-serif;}
 
-h2{color: #81322d; font-size: 1.5rem; font-weight: bolder; text-decoration: underline; font-family: "cursiva";}
+h2{color: #81322d; font-size: 1.5rem; font-weight: bolder; text-decoration: underline;font-family: "cursiva";}
 
 h2:hover{font-size: 1.6rem; color: #d27a74;}
 
