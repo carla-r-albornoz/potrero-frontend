@@ -3,6 +3,11 @@
   src: url("../fuentes/cursiva.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "lobster";
+  src: url("../fuentes/lobster.ttf") format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Varela+Round&display=swap');
 
 body {background-color: #FDEDEC}
@@ -14,7 +19,7 @@ header {
     height: 5vh;
     color: #FDEDEC;
     font-size: 1rem;
-    font-family: "cursiva";
+    font-family: "lobster";
     text-align: center;}
 
 #nav{
@@ -34,7 +39,7 @@ nav{
 	margin-left: 3vw;
   margin-bottom: 2.5vh;
 	color:#81322d;
-  font-family: "cursiva";
+  font-family: "lobster";
 	font-weight: bold;
 	font-size: 1.5rem;
 	overflow: hidden;
@@ -54,7 +59,7 @@ form{font-weight: bold; margin:1%; font-family: 'Varela Round', sans-serif;}
 .boton-inicio{
   margin: 1%;
   color:#81322d;
-  font-family: "cursiva";
+  font-family: "lobster";
   font-weight: bold;
   font-size: 1.5rem;
   border: 2px solid #81322d;
@@ -127,7 +132,7 @@ article {
     font-size: 0.9rem;
     font-family: 'Varela Round', sans-serif;}
 
-h2{color: #81322d; font-size: 1.5rem; font-weight: bolder; text-decoration: underline;font-family: "cursiva";}
+h2{color: #81322d; font-size: 1.5rem; font-weight: bolder; text-decoration: underline;font-family: "lobster";}
 
 h2:hover{font-size: 1.6rem; color: #d27a74;}
 
