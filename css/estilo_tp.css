@@ -1,13 +1,20 @@
+@font-face {
+  font-family: "cursiva";
+  src: url("../fuentes/cursiva.ttf") format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Varela+Round&display=swap');
+
 body {background-color: #FDEDEC}
 
 header {
     margin-bottom: 1%;
     background-color: #5a2420;
     width: 100%;
-    height: 50px;
+    height: 5vh;
     color: #FDEDEC;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 1.2rem;
+    font-family: "cursiva";
     text-align: center;}
 
 #nav{
@@ -18,45 +25,65 @@ nav{
  background-color: #d27a74;
  margin-bottom: 1%;
  width: 100%;
- height: 100px;}
+ height: 10vh;}
 
 .enlace{
-	padding: 10px 20px;
-	margin-top: 25px;
-	margin-right: 30px;
-	margin-left: 30px;
-  margin-bottom: 25px;
+	padding: 1vh;
+	margin-top: 2.5vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+  margin-bottom: 2.5vh;
 	color:#81322d;
-  font-style: italic;
+  font-family: "cursiva";
 	font-weight: bold;
-	font-size: 22px;
-	overflow: hidden;}
+	font-size: 1.5rem;
+	overflow: hidden;
+  border-radius: 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #d27a74;}
 
-.enlace:hover{background-color: #FDEDEC; font-size: 28px}
+.enlace:hover{background-color: #FDEDEC;font-size: 1.75rem;opacity: 0.4;}
 
-form{font-weight: bold; margin:1%;}
+form{font-weight: bold; margin:1%; font-family: 'Varela Round', sans-serif;}
 
-.xx{font-weight: bold;}
+.xx{font-weight: bold; font-size: 1rem;font-family: 'Varela Round', sans-serif;}
 
-.inicio{margin: 1%;color:#81322d;font-style: italic;font-weight: bold;font-size: 22px;}
+.xx:hover{font-size: 1.3rem;}
 
-.inicio:hover{background-color: #d27a74; font-size: 28px}
+.boton-inicio{
+  margin: 1%;
+  color:#81322d;
+  font-family: 'cursiva';
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 2px solid #81322d;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color:#FDEDEC;
+  padding: 0.25%;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #d27a74;}
+
+.boton-inicio:hover{background-color: #d27a74; font-size: 1.75rem;opacity: 0.4;}
 
 .div1 {
 	text-align: center;
 	background-color: #81322d;
   margin-bottom: 1%;
 	width: 100%;
-  height: 75px;
+  height: 10vh;
 	font-weight: inherit;
   font-style: normal;
   color: #FDEDEC;
-	font-size: 16px;
-  overflow: visible;}
+	font-size: 0.9rem;
+  overflow: visible;
+  font-family: 'Varela Round', sans-serif;}
 
 audio{
   width: 20%;
-  height: 32px;}
+  height: 4vh;}
 
 section {
     background-color: #FDEDEC;
@@ -67,9 +94,10 @@ section {
     width: 32%;
     float: left;
     border: 2px solid #81322d;
-    height: 750px;
+    height: 95vh;
     overflow: auto;
-    font-size: 18px;}
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;}
 
 aside {
     background-color: #FDEDEC;
@@ -81,8 +109,9 @@ aside {
     padding-top: 1%;
     overflow: auto;
     width: 62%;
-    height: 750px;
-    font-size: 18px;}
+    height: 95vh;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;}
 
 article {
     background-color: #FDEDEC;
@@ -92,28 +121,31 @@ article {
     padding-top: 1%;
     padding: 1%;
     width: 98%;
-    height: 650px;
+    height: 90vh;
     text-align: center;
     overflow: auto;
-    font-size: 16px;}
+    font-size: 0.9rem;
+    font-family: 'Varela Round', sans-serif;}
 
-h2{color: #81322d; font-size: 22px; font-style: italic; font-weight: bolder; text-decoration: underline;}
+h2{color: #81322d; font-size: 1.5rem; font-style: italic; font-weight: bolder; text-decoration: underline; font-family: "cursiva";}
 
-h2:hover{font-size: 28px; color: #d27a74;}
+h2:hover{font-size: 1.6rem; color: #d27a74;}
 
-h4{color: #81322d; font-size: 22px; font-style: italic; font-weight: normal; text-align: center;}
+h4{color: #81322d; font-size: 1.4rem; font-style: italic; font-weight: normal; text-align: center;}
 
 .parent{text-align: center;}
 
-img{width: 360px;height: 220px;}
+.img1{width: 75%;height: 55%;}
+
+.img2{width: 55%;height: 35%;}
 
 iframe {width: 30%;height: 30%;}
 
-iframe:hover{width: 35%;height: 35%}
+iframe:hover{width: 32%;height: 32%}
 
 footer {
   background-color: #d27a74;
-  height: 80px;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -127,17 +159,27 @@ footer {
   display:flex;
   align-items: center;}
 
-.redes {width: 50px;height: 50px;}
+.redes {width: 3vw;height: 6vh;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #d27a74;
+  border-radius:10px; }
 
-.redes:hover {width: 65px;height: 65px;}
+.redes:hover {width: 4vw;height: 8vh;
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);}
 
-.boton {
+.boton-wsp {
   position: fixed;
   z-index: 999;
   bottom: 2%;
-  right: 2%;
-  padding: 2px;
-  width: 55px;
-  height: 55px;}
+  right: 2%;}
 
-.boton:hover{width: 75px;height: 75px;}
+.boton{width: 3.5vw;height: 7vh;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #33CC33;border-radius: 10px}
+
+.boton:hover{width: 4vw;height: 8vh;
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);}
