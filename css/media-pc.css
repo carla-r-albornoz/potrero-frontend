@@ -2,7 +2,11 @@
 
 @media (min-width: 992px) {
 
-  /*intro-audio*/
-  .intro{
-    display: none !important;}
+  /*barra de navegacion*/
+.enlace_redes{
+  display: none !important;}
+
+/*intro-audio*/
+.intro{
+  display: none !important;}
 }

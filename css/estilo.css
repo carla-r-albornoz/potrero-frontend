@@ -55,6 +55,24 @@ nav{
   background-color: #CD6155;
   opacity: 0.95;}
 
+.enlace_redes{
+  padding: 1vh;
+	margin-top: 2vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+  margin-bottom: 2vh;
+	color:#641E16;
+  font-family: "lobster";
+	font-weight: bold;
+	font-size: 1.5rem;
+	overflow: hidden;
+  border-radius: 16px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #CD6155;
+  opacity: 0.95;
+}
+
 .enlace:hover{background-color: #F2D7D5;font-size: 1.75rem;opacity: 0.5;}
 
 /*contacto-formulario*/

@@ -24,6 +24,12 @@
 
   .enlace:hover{background-color: #EBDEF0 ;font-size: 1.75rem;opacity: 0.5;}
 
+  .enlace_redes{
+  	color:#512E5F;
+    background-color: #AF7AC5;}
+
+  .enlace_redes:hover{background-color: #EBDEF0 ;font-size: 1.75rem;opacity: 0.5;}
+
   /*contacto-formulario*/
   .formulario {
     background-color: #F5EEF8;
