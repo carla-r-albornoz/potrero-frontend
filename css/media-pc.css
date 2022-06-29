@@ -1,0 +1,8 @@
+/*version pc*/
+
+@media (min-width: 992px) {
+
+  /*intro-audio*/
+  .intro{
+    display: none !important;}
+}

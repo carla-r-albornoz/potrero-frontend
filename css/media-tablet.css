@@ -1,0 +1,76 @@
+/*version tablet*/
+
+@media (min-width: 768px) and (max-width:991px) {
+
+  body {
+    background-image:  none;
+    background-color: #D4E6F1;}
+
+  /*encabezado*/
+  header {
+      background-color: #1A5276;
+      color: white;}
+
+  /*barra de navegacion*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #5499C7;}
+
+  .enlace{
+  	color:#154360;
+    background-color: #5499C7;}
+
+  .enlace:hover{background-color: #D4E6F1 ;font-size: 1.75rem;opacity: 0.5;}
+
+  /*contacto-formulario*/
+  .formulario {
+    background-color: #EAF2F8;
+    border: 2px solid #154360;}
+
+  label{
+    color: #1A5276;}
+
+  .boton_enviar{
+    color:#154360;
+    background-color: white;
+    border: 2px solid #154360}
+
+  .boton-inicio{
+    color:#154360;
+    border: 2px solid #154360;
+    background-color:#EAF2F8;}
+
+/*intro-audio*/
+.intro{
+  background-color: none;
+  background-image: url("../imagenes/francia.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  color: black;}
+
+/*seccion principal*/
+section{
+  background-color: #EAF2F8;
+  border: 2px solid #154360;}
+
+aside{
+  background-color: #EAF2F8;
+  border: 2px solid #154360;}
+
+  /*comentarios-iframe*/
+  article {
+      background-color:#EAF2F8;
+      border: 2px solid #154360;}
+
+  h2{color: #1A5276;}
+
+  h2:hover{color: #7FB3D5;}
+
+  h4{color: #1A5276}
+
+  /*pie de pagina y redes sociales*/
+  footer {
+    background-color: #5499C7;}
+}

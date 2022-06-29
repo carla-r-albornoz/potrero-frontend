@@ -3,30 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Contacto</title>
+    <!--icono pestaña navegador-->
     <link rel="icon" href="./imagenes/knife.ico">
-    <link rel="stylesheet" href="./css/estilo_tp.css">
+    <!--hoja de estilo-->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!--media queries-->
+    <link rel="stylesheet" href="./css/media-movil.css">
+    <link rel="stylesheet" href="./css/media-tablet.css">
+    <link rel="stylesheet" href="./css/media-pc.css">
+
   </head>
   <body>
+
+    <!--encabezado-->
     <header>
       <h1>Recetas Fáciles</h1>
     </header>
 
-    <form>
-      <label for="nombre">Apellido y Nombre</label>
-      <input type="text" name="nombre" value="Escribir Apellido y Nombre">
-      <br><br>
-      <label for="email">Correo Electronico</label>
-      <input type="text" name="email" value="Escribir email">
-      <br><br>
-      <label for="Mensaje">Mensaje</label>
-      <textarea name="name"  cols="80" rows="10">Mensaje</textarea>
-      <br><br>
-      <input class="xx" type="submit" value="Enviar">
-    </form>
+    <!--formulario-->
+    <div class="formulario">
 
-    <a href="index.html" class="boton-inicio">Inicio</a>
+      <form>
+        <label for="nombre">Apellido y Nombre</label>
+        <input type="text" name="nombre" value="Escribir Apellido y Nombre">
+        <br><br>
+        <label for="email">Correo Electronico</label>
+        <input type="text" name="email" value="Escribir Email">
+        <br><br>
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="name"  cols="80" rows="10">Mensaje</textarea>
+        <br><br>
+        <input class="boton_enviar" type="submit" value="Enviar">
+      </form>
 
-    <footer>
+    </div>
+
+<!--boton inicio-->
+  <a href="index.html" class="boton-inicio">Inicio</a>
+
+</div>
+<!--enlace a whatsapp-->
+  <div class="boton-wsp">
+      <a href="https://wa.me/5492613865991?text=Hola,%20quiero%20consultar%20por%20otras%20recetas..." target="_blank">
+        <img src="./imagenes/wsp.png" class="boton">
+      </a>
+  </div>
+
+    <!--pie de pagina y redes sociales-->
+  <footer>
   		<a href="https://www.instagram.com/paulinacocina/" target="_blank" class="redes_sociales"><img src="./imagenes/instagram.png" class="redes"></a>
   		<a href="https://www.youtube.com/user/paulinacocina" target="_blank" class="redes_sociales"><img src="./imagenes/youtube.png" class="redes"></a>
   		<a href="https://www.facebook.com/paulinacocina.net" target="_blank" class="redes_sociales"><img src="./imagenes/facebook.png" class="redes"></a>
