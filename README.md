@@ -1,2 +1,2 @@
-# trabajo-practico-1
+# trabajos-practicos
 receta-html
