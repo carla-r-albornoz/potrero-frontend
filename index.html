@@ -9,6 +9,8 @@
     <title>Recetas Fáciles</title>
     <!--icono pestaña navegador-->
     <link rel="icon" href="./imagenes/knife.ico">
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--hoja de estilo-->
     <link rel="stylesheet" href="./css/estilo.css">
     <!--media queries-->
@@ -25,10 +27,12 @@
   </header>
 <!--barra de navegacion-->
   <nav>
-      <a href="https://www.bonviveur.es/recetas/macarons" target="_blank" class="enlace">Macarons</a>
-      <a href="https://www.bonviveur.es/recetas/sandwich-croque-monsieur" target="_blank" class="enlace">Croque Monsieur</a>
-      <a href="https://www.bonviveur.es/recetas/cruasanes-caseros-croissants" target="_blank" class="enlace">Croissants</a>
-      <a href="https://www.bonviveur.es/recetas/tartiflette-patatas-con-queso-a-la-francesa" target="_blank" class="enlace">Tartiflette</a>
+      <a href="https://www.paulinacocina.net/recetas/ensaladas" target="_blank" class="enlace">Ensaladas</a>
+      <a href="https://www.paulinacocina.net/recetas/pastas" target="_blank" class="enlace">Pastas</a>
+      <a href="https://www.paulinacocina.net/recetas/carnes" target="_blank" class="enlace">Carnes</a>
+      <a href="https://www.paulinacocina.net/recetas/pescados-y-mariscos" target="_blank" class="enlace">Mariscos</a>
+      <a href="https://www.paulinacocina.net/recetas/entrantes" target="_blank" class="enlace">Snacks</a>
+      <a href="https://www.paulinacocina.net/recetas/dulces-y-postres/postres" target="_blank" class="enlace">Postres</a>
       <a href="contacto.html"  class="enlace">Contacto</a>
       <a href=#Redes class="enlace_redes">Redes Sociales</a>
 	</nav>
@@ -112,6 +116,51 @@
     <iframe src="https://www.youtube.com/embed/CfIbk_7VQ6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </article>
 </div>
+  <!--cards-->
+  <div class="container cardcontain">
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div id="tartiflette" class="card">
+                      <img src="https://imag.bonviveur.com/tartiflette-patatas-con-queso-a-la-francesa.webp" class="card-img-top" alt="Sample Image">
+                      <div class="card-body text-center">
+                          <h5 id="card1-titulo" class="card-title">Tartiflette</h5>
+                          <p id="card1-parrafo" class="card-text">Descubre cómo se hace la tartiflette o patatas con queso a la francesa. Con una buena dosis de queso reblochon. ¡Seguro que se convierte en uno de tus platos favoritos!</p>
+                          <a href="https://www.bonviveur.es/recetas/tartiflette-patatas-con-queso-a-la-francesa" class="btn btn-primary">Ver Receta</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div id="croque" class="card">
+                      <img src="https://imag.bonviveur.com/sandwich-croque-monsieur-servido-en-un-plato-con-ensalada.webp" class="card-img-top" alt="Sample Image">
+                      <div class="card-body text-center">
+                          <h5 id="card2-titulo" class="card-title">Croque-Monsieur</h5>
+                          <p id="card2-parrafo" class="card-text">Aquí te explicamos cómo preparar el famoso sándwich Croque-monsieur. Un delicioso sándwich de jamón y queso con una capa gratinada de bechamel. ¿Qué esperas para probarlo?</p>
+                          <a href="https://www.bonviveur.es/recetas/sandwich-croque-monsieur" class="btn btn-secondary">Ver Receta</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div id="eclairs" class="card">
+                      <img src="https://imag.bonviveur.com/interior-de-los-eclairs-de-crema-y-chocolate.webp" class="card-img-top" alt="Sample Image">
+                      <div class="card-body text-center">
+                          <h5 id="card3-titulo" class="card-title">Eclairs de crema</h5>
+                          <p id="card3-parrafo" class="card-text">Se elaboran a partir de una masa choux a la que se le da forma alargada, se rellena de crema y se cubre de chocolate. Un bocado digno de cualquier pastelería francesa.</p>
+                          <a href="https://www.bonviveur.es/recetas/eclairs-de-crema-y-chocolate" class="btn btn-danger">Ver Receta</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div id="macarons" class="card">
+                      <img src="https://imag.bonviveur.com/presentacion-principal-de-los-macarons.webp" class="card-img-top" alt="Sample Image">
+                      <div class="card-body text-center">
+                          <h5 id="card4-titulo" class="card-title">Macarons</h5>
+                          <p id="card4-parrafo" class="card-text">Son un tipo de pastelitos hechos a base de una mezcla de harina de almendras y merengue italiano. El resultado son unas tapas planas delicadas que se unen de dos en dos con algún relleno.</p>
+                          <a href="https://recetascheesecake.com/cheesecake-de-frutos-rojos/" class="btn btn-success">Ver Receta</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 <!--enlace a whatsapp-->
   <div class="boton-wsp">
 			<a href="https://wa.me/5492613865991?text=Hola,%20quiero%20consultar%20por%20otras%20recetas..." target="_blank">
@@ -124,6 +173,7 @@
 		<a href="https://www.youtube.com/user/paulinacocina" target="_blank" class="redes_sociales"><img src="./imagenes/youtube.png" class="redes"></a>
 		<a href="https://www.facebook.com/paulinacocina.net" target="_blank" class="redes_sociales"><img src="./imagenes/facebook.png" class="redes"></a>
 </footer>
-
+<!--link JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

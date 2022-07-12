@@ -22,7 +22,7 @@
   	color:#154360;
     background-color: #5499C7;}
 
-  .enlace:hover{background-color: #D4E6F1 ;font-size: 1.75rem;opacity: 0.5;}
+  .enlace:hover{background-color: #D4E6F1 ;font-size: 1.75rem; color:#154360; opacity: 0.5;}
 
   .enlace_redes{
   	color:#154360;
@@ -47,6 +47,8 @@
     color:#154360;
     border: 2px solid #154360;
     background-color:#EAF2F8;}
+
+  .boton-inicio:hover{color:#154360;}
 
 /*intro-audio*/
 .intro{
@@ -75,6 +77,11 @@ aside{
   h2:hover{color: #7FB3D5;}
 
   h4{color: #1A5276}
+
+  /*cards*/
+  .card{border: 2px solid #154360;}
+  .card-title{color: #154360;}
+  .btn{background-color: #5499C7; border: 0.5px solid #5499C7;}
 
   /*pie de pagina y redes sociales*/
   footer {

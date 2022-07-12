@@ -73,25 +73,25 @@ nav{
   opacity: 0.95;
 }
 
-.enlace:hover{background-color: #F2D7D5;font-size: 1.75rem;opacity: 0.5;}
+.enlace:hover{background-color: #F2D7D5;font-size: 1.75rem;color: #641E16;opacity: 0.5;}
 
 /*contacto-formulario*/
 .formulario {
-  display: flex;
-  justify-content: center;
+  position: relative;
+  left: 25%; right: 25%;
   background-color: #F9EBEA;
   opacity: 0.9;
   margin-top: 1%;
   margin-bottom: 1%;
-  width: 45%;
+  width: 50%;
   border: 2px solid #641E16;
   border-radius: 2.5px;
-  height: 45%;
+  height: 30%;
   overflow: auto;}
 
 form {
   display: flex;
-  justify-content:space-between;
+  justify-content: center;
   flex-direction: column;
   padding: 5%;}
 
@@ -131,7 +131,7 @@ label{
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;}
 
-.boton-inicio:hover{font-size: 1.75rem;opacity: 0.8;}
+.boton-inicio:hover{font-size: 1.75rem; color: #641E16;opacity: 0.8;}
 
 /*intro-audio*/
 .intro {
@@ -218,7 +218,7 @@ article {
     border: 2px solid #641E16;
     border-radius: 2.5px;
     padding: 1%;
-    width: 98%;
+    width: 100%;
     height: auto;
     text-align: center;
     font-size: 0.9rem;
@@ -240,6 +240,32 @@ h4{color: #7B241C; font-size: 1.4rem; font-family: "cursiva"; font-weight: bolde
 iframe {width: 30%;height: 30%; border-radius: 3px;}
 
 iframe:hover{width: 32%;height: 32%; border-radius: 3px;-webkit-transition: 1s linear; transition: 1s linear;}
+
+/*cards*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1%;
+  margin-top: 1%;}
+
+.card{
+  border: 2px solid #641E16;
+  background-color: white;
+  opacity: 0.9;
+  height: 99%;}
+
+.card-title{
+  color: #641E16;
+  font-size: 1.2em;}
+
+.card-text{
+  color: inherit;
+  font-size: 1em;}
+
+.btn{
+  background-color: #CD6155;
+  border: 0.5px solid #CD6155;}
 
 /*pie de pagina y redes sociales*/
 footer {
