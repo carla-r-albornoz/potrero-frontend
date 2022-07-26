@@ -17,24 +17,30 @@
     <link rel="stylesheet" href="./css/media-movil.css">
     <link rel="stylesheet" href="./css/media-tablet.css">
     <link rel="stylesheet" href="./css/media-pc.css">
-
+    <!--cartel de bienvenida-->
+    <!--<script>
+        alert("Bienvenidxs a 'Recetas Fáciles'")
+    </script>-->
   </head>
 
-  <body>
+  <body id="body">
   <!--encabezado-->
   <header>
     <h1>Recetas Fáciles</h1>
+    <div class="oscuro">
+        <button id="modooscuro" onclick="inclusivo()">Modo Oscuro</button>
+    </div>
   </header>
 <!--barra de navegacion-->
-  <nav>
-      <a href="https://www.paulinacocina.net/recetas/ensaladas" target="_blank" class="enlace">Ensaladas</a>
-      <a href="https://www.paulinacocina.net/recetas/pastas" target="_blank" class="enlace">Pastas</a>
-      <a href="https://www.paulinacocina.net/recetas/carnes" target="_blank" class="enlace">Carnes</a>
-      <a href="https://www.paulinacocina.net/recetas/pescados-y-mariscos" target="_blank" class="enlace">Mariscos</a>
-      <a href="https://www.paulinacocina.net/recetas/entrantes" target="_blank" class="enlace">Snacks</a>
-      <a href="https://www.paulinacocina.net/recetas/dulces-y-postres/postres" target="_blank" class="enlace">Postres</a>
-      <a href="contacto.html"  class="enlace">Contacto</a>
-      <a href=#Redes class="enlace_redes">Redes Sociales</a>
+  <nav id="nav">
+      <a href="https://www.paulinacocina.net/recetas/ensaladas" target="_blank" class="enlace" id="enlace1">Ensaladas</a>
+      <a href="https://www.paulinacocina.net/recetas/pastas" target="_blank" class="enlace" id="enlace2">Pastas</a>
+      <a href="https://www.paulinacocina.net/recetas/carnes" target="_blank" class="enlace" id="enlace3">Carnes</a>
+      <a href="https://www.paulinacocina.net/recetas/pescados-y-mariscos" target="_blank" class="enlace" id="enlace4">Mariscos</a>
+      <a href="https://www.paulinacocina.net/recetas/entrantes" target="_blank" class="enlace" id="enlace5">Snacks</a>
+      <a href="https://www.paulinacocina.net/recetas/dulces-y-postres/postres" target="_blank" class="enlace" id="enlace6">Postres</a>
+      <a href="contacto.html"  class="enlace" id="enlace7">Contacto</a>
+      <a href=#Redes class="enlace_redes" id="enlace">Redes Sociales</a>
 	</nav>
 <!--introduccion a la receta y archivo multimedia-->
   <div class="intro">
@@ -43,14 +49,14 @@
   </div>
 <!--seccion principal: ingredientes y preparacion-->
 <main>
-  <section>
+  <section id="section">
     <p>Bonjour amig@s! Hoy les traigo una de las mejores maneras de comer verduras: <b>Ratatouille</b>.
       Pero esta receta no es la tradicional de la cocina francesa sino la de la película de Disney. La vieron?
       Es hermosa.
       El protagonista hace otra versión del típico plato francés y se lo da de probar al crítico,
       y se gana su corazón.
     </p>
-<div class="parent">
+<div class="cont-imagen">
   <img src="./imagenes/img-pelicula.jpg" alt="película ratatouille" class="img1">
 </div>
 
@@ -71,8 +77,9 @@
     </ul>
   </section>
 
-  <aside>
+  <aside id="aside">
     <h2><b>Preparación:</b></h2>
+    <br>
     <ol>
       <li>Picar el ajo, la cebolla, el pimiento morrón bien chiquitos.</li>
       <li>Cocinar en aceite de oliva, agregar sal. Cuando la cebolla esté transparente agregarle la lata de tomate cubeteado,
@@ -101,7 +108,7 @@
 </main>
 <!--comentarios: origen del plato, video en youtube.-->
 <div class="comentarios">
-  <article>
+  <article id="article">
     <p>La ratatouille es una preparación típica de la cocina francesa que consiste en un estofado de diferentes hortalizas típicas del sur de Francia.
       Proviene de la región de Provenza y del antiguo condado de Niza (sureste de Francia), por lo que se la llama también <i>ratatouille niçoise</i>.
     </p>
@@ -116,13 +123,13 @@
     <iframe src="https://www.youtube.com/embed/CfIbk_7VQ6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </article>
 </div>
-  <!--cards-->
+  <!--cards/enlace a otras recetas-->
   <div class="container cardcontain">
           <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div id="tartiflette" class="card">
+                  <div class="card" id="card1">
                       <img src="https://imag.bonviveur.com/tartiflette-patatas-con-queso-a-la-francesa.webp" class="card-img-top" alt="Sample Image">
-                      <div class="card-body text-center">
+                      <div class="card-body text-center" id="tartiflette">
                           <h5 id="card1-titulo" class="card-title">Tartiflette</h5>
                           <p id="card1-parrafo" class="card-text">Descubre cómo se hace la tartiflette o patatas con queso a la francesa. Con una buena dosis de queso reblochon. ¡Seguro que se convierte en uno de tus platos favoritos!</p>
                           <a href="https://www.bonviveur.es/recetas/tartiflette-patatas-con-queso-a-la-francesa" class="btn btn-primary">Ver Receta</a>
@@ -130,9 +137,9 @@
                   </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div id="croque" class="card">
+                  <div class="card" id="card2">
                       <img src="https://imag.bonviveur.com/sandwich-croque-monsieur-servido-en-un-plato-con-ensalada.webp" class="card-img-top" alt="Sample Image">
-                      <div class="card-body text-center">
+                      <div class="card-body text-center" id="croque">
                           <h5 id="card2-titulo" class="card-title">Croque-Monsieur</h5>
                           <p id="card2-parrafo" class="card-text">Aquí te explicamos cómo preparar el famoso sándwich Croque-monsieur. Un delicioso sándwich de jamón y queso con una capa gratinada de bechamel. ¿Qué esperas para probarlo?</p>
                           <a href="https://www.bonviveur.es/recetas/sandwich-croque-monsieur" class="btn btn-secondary">Ver Receta</a>
@@ -140,9 +147,9 @@
                   </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div id="eclairs" class="card">
+                  <div class="card" id="card3">
                       <img src="https://imag.bonviveur.com/interior-de-los-eclairs-de-crema-y-chocolate.webp" class="card-img-top" alt="Sample Image">
-                      <div class="card-body text-center">
+                      <div class="card-body text-center" id="eclairs">
                           <h5 id="card3-titulo" class="card-title">Eclairs de crema</h5>
                           <p id="card3-parrafo" class="card-text">Se elaboran a partir de una masa choux a la que se le da forma alargada, se rellena de crema y se cubre de chocolate. Un bocado digno de cualquier pastelería francesa.</p>
                           <a href="https://www.bonviveur.es/recetas/eclairs-de-crema-y-chocolate" class="btn btn-danger">Ver Receta</a>
@@ -150,9 +157,9 @@
                   </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div id="macarons" class="card">
+                  <div class="card" id="card4">
                       <img src="https://imag.bonviveur.com/presentacion-principal-de-los-macarons.webp" class="card-img-top" alt="Sample Image">
-                      <div class="card-body text-center">
+                      <div class="card-body text-center" id="macarons">
                           <h5 id="card4-titulo" class="card-title">Macarons</h5>
                           <p id="card4-parrafo" class="card-text">Son un tipo de pastelitos hechos a base de una mezcla de harina de almendras y merengue italiano. El resultado son unas tapas planas delicadas que se unen de dos en dos con algún relleno.</p>
                           <a href="https://recetascheesecake.com/cheesecake-de-frutos-rojos/" class="btn btn-success">Ver Receta</a>
@@ -161,19 +168,24 @@
               </div>
           </div>
       </div>
-<!--enlace a whatsapp-->
+<!--boton/enlace a whatsapp-->
   <div class="boton-wsp">
 			<a href="https://wa.me/5492613865991?text=Hola,%20quiero%20consultar%20por%20otras%20recetas..." target="_blank">
 				<img src="./imagenes/wsp.png" class="boton">
 			</a>
   </div>
 <!--pie de pagina y redes sociales-->
-  <footer id="Redes">
+  <footer id="footer">
 		<a href="https://www.instagram.com/paulinacocina/" target="_blank" class="redes_sociales"><img src="./imagenes/instagram.png" class="redes"></a>
 		<a href="https://www.youtube.com/user/paulinacocina" target="_blank" class="redes_sociales"><img src="./imagenes/youtube.png" class="redes"></a>
 		<a href="https://www.facebook.com/paulinacocina.net" target="_blank" class="redes_sociales"><img src="./imagenes/facebook.png" class="redes"></a>
+    <div class="design-by">
+        <button id="developer" onclick="cartel()">Design by</button>
+    </div>
+
 </footer>
 <!--link JS-->
+<script src="./js/javascript.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
